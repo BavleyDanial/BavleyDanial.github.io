@@ -1,5 +1,13 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 #app {
-    background: linear-gradient(rgb(241, 241, 241) 0%, rgb(212, 212, 212) 100%);
+    margin: 0%;
+    height: 100%;
+    background: linear-gradient(30deg, rgb(125, 125, 125), rgb(212, 212, 212));
+    color: rgb(31, 31, 31);
 }
 
 #header {
@@ -14,7 +22,7 @@
     left: 50%;
     top: 20%;
     width: 100%;
-    padding-left: 20%;
+    margin-left: 20%;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -33,10 +41,18 @@
 }
 
 #navbar a {
-    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
     padding: 20px;
     line-height: 3em;
     font-size: 40px;
+    border: 0 solid;
+    border-bottom-width: 2px;
+}
+
+#navbar a:hover {
+    opacity: 0.4;
 }
 
 #main p {
@@ -45,6 +61,8 @@
 
 #profilepic img {
     height: 300px;
+    padding: 10%;
+    padding-left: 15%;
 }
 
 @media (max-width: 768px) {
