@@ -59,9 +59,9 @@ html, body {
 }
 
 #profilepic img {
-    height: 300px;
-    padding: 10%;
-    padding-left: 15%;
+    max-width: 50%;
+    height: auto;
+    display: block;
 }
 
 @media (max-width: 768px) {
@@ -81,6 +81,9 @@ html, body {
     }
 
     #profilepic {
-        max-width: 200px;
+        text-align: center;
+        padding: 10px;
+        min-width: 200px;
+        min-height: 200px;
     }
 }
