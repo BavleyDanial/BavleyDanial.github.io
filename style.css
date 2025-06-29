@@ -21,7 +21,6 @@ html, body {
 #main {
     left: 50%;
     top: 20%;
-    width: 100%;
     margin-left: 20%;
     display: grid;
     grid-template-columns: 1fr 1fr;
