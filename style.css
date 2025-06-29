@@ -83,7 +83,7 @@ html, body {
     #profilepic {
         text-align: center;
         padding: 10px;
-        min-width: 200px;
-        min-height: 200px;
+        min-width: 100px;
+        min-height: 100px;
     }
 }
