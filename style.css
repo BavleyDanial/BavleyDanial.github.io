@@ -73,8 +73,14 @@ html, body {
         padding-bottom: 30px;
     }
 
+    #name {
+        padding: 8px 10px;
+        text-align: center;
+    }
+
     #navbar a {
         padding: 8px 10px;
+        text-align: center;
     }
 
     #header {
@@ -84,6 +90,7 @@ html, body {
 
     #main {
         grid-template-columns: 1fr 1fr;
+        text-align: center;
     }
 
     #profilepic {
