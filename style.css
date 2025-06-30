@@ -88,7 +88,7 @@ html, body {
     }
 
     #name {
-        min-width: 400px;
+        min-width: 100px;
         text-align: center;
         line-height: 1em;
         font-size: 26px;
