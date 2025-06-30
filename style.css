@@ -25,6 +25,7 @@ html, body {
 }
 
 #name {
+    min-width: 400px;
     text-align: center;
     line-height: 4em;
     font-size: 40px;
@@ -73,7 +74,6 @@ html, body {
     }
 
     #name {
-        padding: 8px 10px;
         text-align: center;
     }
 
